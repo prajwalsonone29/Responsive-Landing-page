@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><span class="logo-mark">✦</span> MyBrand</div>
+        <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="cta-header">Start Free</button>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="eyebrow">Launch something beautiful</span>
+            <h1>Build modern websites with ease.</h1>
+            <p>Design fast, responsive landing pages with clean HTML and CSS. Perfect for startups, portfolios, and product launches.</p>
+            <div class="hero-actions">
+                <a href="#features" class="btn btn-primary">Explore Features</a>
+                <a href="#pricing" class="btn btn-secondary">View Pricing</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>1.2K</strong><span>Projects launched</span></div>
+                <div><strong>98%</strong><span>Client satisfaction</span></div>
+                <div><strong>24/7</strong><span>Support available</span></div>
+            </div>
+        </div>
+        <div class="hero-card">
+            <div class="badge">Trusted by designers</div>
+            <h2>Quick launch kit</h2>
+            <p>Responsive grid layout, polished visual styling, and mobile-ready interactions included.</p>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>What makes us different</h2>
+        <div class="feature-grid">
+            <article class="feature-card">
+                <h3>Responsive by default</h3>
+                <p>Layouts adapt beautifully across phones, tablets, and desktops without extra effort.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Vibrant design</h3>
+                <p>Bold gradients, clean spacing, and readable typography that feel modern and professional.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Easy customization</h3>
+                <p>Simple HTML structure and CSS utilities make it fast to tailor your brand style.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="pricing-intro">
+            <span class="eyebrow">Choose your plan</span>
+            <h2>Simple pricing for every project</h2>
+        </div>
+        <div class="pricing-grid">
+            <article class="pricing-card featured">
+                <h3>Starter</h3>
+                <p class="price">Free</p>
+                <ul>
+                    <li>Single page layout</li>
+                    <li>Responsive design</li>
+                    <li>Email support</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </article>
+            <article class="pricing-card">
+                <h3>Pro</h3>
+                <p class="price">$19/mo</p>
+                <ul>
+                    <li>Multiple sections</li>
+                    <li>Custom branding</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Choose Pro</a>
+            </article>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-top">
+            <div>
+                <h3>MyBrand</h3>
+                <p>Beautiful landing pages built for modern web projects.</p>
+            </div>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <p>© 2026 MyBrand. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>
